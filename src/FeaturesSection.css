@@ -1,0 +1,34 @@
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column layout */
+  gap: 20px;
+  padding: 20px;
+}
+
+.feature-card {
+  width: 1440px;
+  height: 7585px;
+  min-height: 900px;
+  background-color: rgba(0, 22, 29, 1); /* Dark background */
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.feature-image {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.feature-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  font-size: 16px;
+}

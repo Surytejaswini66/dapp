@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  background-color: #00161d; /* Light blue background */
+  font-family: "Arial", sans-serif;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #01579b; /* Darker blue on hover */
+}
+
+.navbar {
+  backdrop-filter: blur(8px); /* Blur effect on navbar */
+  background-color: rgba(255, 255, 255, 0.3); /* Transparent white */
+}
+
+.feature-card {
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+  border-radius: 1rem; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+/* Group */
+.group {
+  position: absolute;
+  left: 52.68%;
+  right: 8.96%;
+  top: 42.76%;
+  bottom: 40.42%;
+}
+
+/* Vector */
+.vector {
+  position: absolute;
+  left: 82.16%;
+  right: 12.52%;
+  top: 49.82%;
+  bottom: 41.48%;
+  background: #9c9ca0;
+}
+
+/* XMLID_2_ */
+.xmlid-2 {
+  position: absolute;
+  left: 52.68%;
+  right: 8.96%;
+  top: 42.76%;
+  bottom: 40.42%;
+}
+
+/* Additional Vector styles */
+.vector-1 {
+  position: absolute;
+  left: 85.76%;
+  right: 9.9%;
+  top: 51.49%;
+  bottom: 42.55%;
+  background: #a6a5aa;
+}
+
+.vector-2 {
+  position: absolute;
+  left: 82.75%;
+  right: 8.96%;
+  top: 49.6%;
+  bottom: 40.42%;
+  background: #908f93;
+}
+
+/* More Vector styles... */
+.vector-3 {
+  position: absolute;
+  left: 84.22%;
+  right: 14.27%;
+  top: 52.5%;
+  bottom: 45.27%;
+  background: #a6a5aa;
+}
+
+.vector-4 {
+  position: absolute;
+  left: 82.77%;
+  right: 14.73%;
+  top: 53.9%;
+  bottom: 42.05%;
+  background: #908f93;
+}
+
+.vector-5 {
+  position: absolute;
+  left: 84.58%;
+  right: 13.91%;
+  top: 50.05%;
+  bottom: 46.81%;
+  background: #908f93;
+}
+
+.vector-6 {
+  position: absolute;
+  left: 59.06%;
+  right: 16.93%;
+  top: 46.24%;
+  bottom: 42.51%;
+  background: #32353a;
+}
+
+.vector-7 {
+  position: absolute;
+  left: 59.92%;
+  right: 15.87%;
+  top: 44.95%;
+  bottom: 44.54%;
+  background: #4b4f56;
+}
+
+.vector-8 {
+  position: absolute;
+  left: 60.27%;
+  right: 15.56%;
+  top: 43.47%;
+  bottom: 48.13%;
+  background: #32353a;
+}
+
+.vector-9 {
+  position: absolute;
+  left: 82.22%;
+  right: 15.34%;
+  top: 49.93%;
+  bottom: 42.4%;
+  background: #1e2123;
+}
+
+.vector-10 {
+  position: absolute;
+  left: 58.1%;
+  right: 39.3%;
+  top: 43.19%;
+  bottom: 49.91%;
+  background: #1e2123;
+}
+
+/* More Vector styles with opacity */
+.vector-opacity-1 {
+  position: absolute;
+  left: 82.75%;
+  right: 9.97%;
+  top: 57.45%;
+  bottom: 40.42%;
+  background: #211915;
+  opacity: 0.2;
+}
+
+.vector-opacity-2 {
+  position: absolute;
+  left: 85.25%;
+  right: 9.23%;
+  top: 49.6%;
+  bottom: 47.12%;
+  background: #211915;
+  opacity: 0.1;
+}
+
+/* Groups and additional vectors */
+.group-opacity {
+  position: absolute;
+  left: 12.21%;
+  right: 8.96%;
+  top: 60.12%;
+  bottom: 1.75%;
+  opacity: 0.3;
+}
+
+.vector-background-1 {
+  position: absolute;
+  left: 17.5%;
+  right: 44.79%;
+  top: 60.24%;
+  bottom: 2.06%;
+  background: #3f3a36;
+}
+
+.vector-background-2 {
+  position: absolute;
+  left: 37.66%;
+  right: 44.79%;
+  top: 60.66%;
+  bottom: 2.22%;
+  background: #544c47;
+}
+
+.vector-background-3 {
+  position: absolute;
+  left: 13.55%;
+  right: 60.33%;
+  top: 60.94%;
+  bottom: 2.07%;
+  background: #68615d;
+}
+
+.vector-background-4 {
+  position: absolute;
+  left: 15.19%;
+  right: 50.52%;
+  top: 63.38%;
+  bottom: 4.66%;
+  background: #b5dbea;
+  opacity: 0.5;
+}
